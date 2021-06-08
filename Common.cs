@@ -13,7 +13,8 @@ namespace WeatherApp
 {
     class Common
     {
-        public static string API_KEY = "ebf8f174a7f1f7dea47525077eae0508";
+        //please enter your own API key in place of ******
+        public static string API_KEY = "******************";
         //public static string API_LINK = "api.openweathermap.org/data/2.5/weather";
         public static string API_LINK = "http://api.openweathermap.org/data/2.5/weather";
         public static string APIRequest(string lat, string lng)
